@@ -1,4 +1,4 @@
-FROM node as build
+FROM node:20 as build
 
 ENV HOME=/home/app
 WORKDIR $HOME
